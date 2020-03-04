@@ -1,5 +1,9 @@
 #red {
+<<<<<<< HEAD
     display: inline-block;
+=======
+    background: purple;
+>>>>>>> master/master
 }
 
 #yellow {
