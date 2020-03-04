@@ -1,17 +1,16 @@
 #red {
-<<<<<<< HEAD
     display: inline-block;
-=======
     background: purple;
->>>>>>> master/master
 }
 
 #yellow {
     display: inline-block;
+    background: violet;
 }
 
 #blue {
     display: inline-block;
+    background: lightblue;
 }
 
 body {
