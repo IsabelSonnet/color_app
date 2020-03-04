@@ -1,13 +1,13 @@
 #red {
-    background: red;
+    display: inline-block;
 }
 
 #yellow {
-    background: yellow;
+    display: inline-block;
 }
 
 #blue {
-    background: blue;
+    display: inline-block;
 }
 
 body {
