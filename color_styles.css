@@ -1,20 +1,23 @@
 #red {
     display: inline-block;
-    background: purple;
+    border: 1px solid black;
+    background-color: white;
 }
 
 #yellow {
     display: inline-block;
-    background: violet;
+    border: 1px solid black;
+    background-color: white;
 }
 
 #blue {
     display: inline-block;
-    background: lightblue;
+    border: 1px solid black;
+    background-color: white;
 }
 
 body {
-    background: green;
+    background: silver;
 }
 
 #white_box {
@@ -24,4 +27,41 @@ body {
     position: relative;
     align-content: center;
     text-align: center;
+}
+
+#addbox {
+  background: white;
+    padding: 2%;
+    margin: 3%;
+    position: relative;
+    align-content: center;
+    text-align: center;
+}
+
+h2 {
+  display: inline-block;
+  text-align: center;
+}
+.inputone {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.inputtwo {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.inputthree {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 1px solid black;
+  background-color: white;
 }
