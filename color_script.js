@@ -11,10 +11,10 @@ document.addEventListener("drop", (event) => {
     if (event.target.className == "droptarget") {
         var data = event.dataTransfer.getData("Text");
         event.target.appendChild(document.getElementById(data));
-        if (data === "red" && target.id  === "inputone") {
+        if (data === "red" && event.target.id  === "inputone") {
             inputone_color = "red";
         }
-        if (data === "yellow" && target.id === "inputtwo") {
+        if (data === "yellow" && event.target.id === "inputtwo") {
             inputtwo_color = "yellow";
         }
     }
@@ -39,9 +39,11 @@ let blue = document.getElementById("blue");
 //event.target.className == "droptarget"
 
 function insertColor(event) {
+    console.log(inputone_color);
+    console.log(inputtwo_color);
     if (event.key === "b"){
         if (inputone_color === "red" && inputtwo_color === "yellow"){
-            result.innerHTML = "<div draggable=\"true\" id=\"orange\"> <svg width=\"100\" height=\"100\"> <circle class=\"circle\" cx=\"50\" //cy=\"50\" r=\"30\" stroke=\"orange\" stroke-width=\"3\" fill=\"orange\" /> </div>";
+            document.body.style.background = "orange";
         }
         if ((inputtwo.innerHTML === red) && (inputone.innerHTML === yellow)){
             result.innerHTML = "<div draggable=\"true\" id=\"orange\"> <svg width=\"100\" height=\"100\"> <circle class=\"circle\" cx=\"50\" //cy=\"50\" r=\"30\" stroke=\"orange\" stroke-width=\"3\" fill=\"orange\" /> </div>";
