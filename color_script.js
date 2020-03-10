@@ -49,7 +49,7 @@ let blue = document.getElementById("blue");
 function insertColor(event) {
     console.log(inputone_color);
     console.log(inputtwo_color);
-    if (event.key === "b"){
+    if (event.key === "c"){
         if (inputone_color === "red" && inputtwo_color === "yellow"){
             result.innerHTML = "<div draggable=\"true\" id=\"orange\"> <svg width=\"100\" height=\"100\"> <circle class=\"circle\" cx=\"50\" //cy=\"50\" r=\"30\" stroke=\"orange\" stroke-width=\"3\" fill=\"orange\" /> </div>";
             document.body.style.background = "orange";
